@@ -1,0 +1,8 @@
+{
+  "name": "acs-ain-shams-premium-deck",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev":"slidev --open", "build":"slidev build", "export:pptx":"slidev export --format pptx", "export:pdf":"slidev export --format pdf"},
+  "dependencies": {"@slidev/cli":"^0.50.0", "@slidev/theme-seriph":"^0.25.0", "three":"^0.170.0", "vue":"^3.5.0"},
+  "devDependencies": {}
+}
